@@ -1,0 +1,94 @@
+#main {
+    padding: 20px;
+}
+
+#projects {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    flex: 0 0 48%;
+    background: #fafafa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background: #2980b9;
+}
+
+.video-button {
+    background: #e74c3c;
+}
+
+.video-button:hover {
+    background: #c0392b;
+}
+
+#footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+#footer .icons {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footer .icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .icons li a:hover {
+    color: #3498db;
+}
